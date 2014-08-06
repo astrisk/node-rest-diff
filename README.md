@@ -33,7 +33,7 @@ var args = {
 restdiff.add(httpMethod, target1, target2, args);
 
 // Comparison start
-restdiff.comparison();
+restdiff.compare();
 ```
 
 ### Comparison of simple REST API response.
@@ -49,7 +49,7 @@ var args = {
 
 restdiff.add('GET', 'http://localhost:3000/v1/users/1', 'http://localhost:3000/v2/users/1', args);
 
-restdiff.comparison();
+restdiff.compare();
 ```
 
 ### MultiCompare REST API multiple responses.
@@ -67,7 +67,7 @@ restdiff.add('GET', 'http://localhost:3000/v1/users/1', 'http://localhost:3000/v
 restdiff.add('GET', 'http://localhost:3000/v1/roles/1', 'http://localhost:3000/v2/roles/1', args);
 restdiff.add('GET', 'http://localhost:3000/v1/groups/1', 'http://localhost:3000/v2/groups/1', args);
 
-restdiff.comparison();
+restdiff.compare();
 ```
 
 ### Result

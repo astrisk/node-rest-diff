@@ -1,6 +1,6 @@
 {
   "name": "node-rest-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Comparison tool of REST API response.",
   "main": "./lib/index.js",
   "dependencies": {
