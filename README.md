@@ -52,7 +52,7 @@ restdiff.add('GET', 'http://localhost:3000/v1/users/1', 'http://localhost:3000/v
 restdiff.compare();
 ```
 
-### MultiCompare REST API multiple responses.
+### Compare REST API multiple responses.
 
 ```javascript
 var restdiff = require('node-rest-diff');
