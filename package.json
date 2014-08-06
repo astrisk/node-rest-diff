@@ -1,0 +1,25 @@
+{
+  "name": "node-rest-diff",
+  "version": "0.0.1",
+  "description": "Comparison tool of REST API response.",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^0.6.2",
+    "jsondiffpatch": "^0.1.8",
+    "node-rest-client": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest api",
+    "rest",
+    "json",
+    "diff",
+    "node"
+  ],
+  "author": "demiglacesource",
+  "license": "MIT"
+}
